@@ -280,7 +280,7 @@ public class FrmVendedor extends javax.swing.JInternalFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -304,24 +304,24 @@ public class FrmVendedor extends javax.swing.JInternalFrame {
 
     private void btnguardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnguardarActionPerformed
         if (txtnombre.getText().length()==0) {
-            JOptionPane.showConfirmDialog(rootPane,"Ingrese nombre del empleado");
+            JOptionPane.showConfirmDialog(rootPane,"Ingrese nombre del vendedor");
             txtnombre.requestFocus();
             return;
         }
         
         if (txtapellidos.getText().length()==0) {
-            JOptionPane.showConfirmDialog(rootPane,"Ingrese apellidos del empleado");
+            JOptionPane.showConfirmDialog(rootPane,"Ingrese apellidos del vendedor");
             txtapellidos.requestFocus();
             return;
         }
         
         if (txttelefono.getText().length()==0) {
-            JOptionPane.showConfirmDialog(rootPane,"Ingrese telefono del empleado");
+            JOptionPane.showConfirmDialog(rootPane,"Ingrese telefono del vendedor");
             txttelefono.requestFocus();
             return;
         }
         if (txtdireccion.getText().length()==0) {
-            JOptionPane.showConfirmDialog(rootPane,"Ingrese direccion del empleado");
+            JOptionPane.showConfirmDialog(rootPane,"Ingrese direccion del vendedor");
             txtdireccion.requestFocus();
             return;
         }
@@ -338,7 +338,7 @@ public class FrmVendedor extends javax.swing.JInternalFrame {
         
         if (accion.equals("guardar")) {
             if (func.insertar(dts)) {
-                JOptionPane.showConfirmDialog(rootPane,"Empleado registrado");
+                JOptionPane.showConfirmDialog(rootPane,"Vendedor registrado");
                 mostrar("");
                 Limpiar();
                 inhabilitar();
@@ -346,7 +346,7 @@ public class FrmVendedor extends javax.swing.JInternalFrame {
             }
         } else if (accion.equals("editar")) {
              if (func.editar(dts)) {
-                JOptionPane.showConfirmDialog(rootPane,"Empleado editado con exito");
+                JOptionPane.showConfirmDialog(rootPane,"Vendedor editado con exito");
                 mostrar("");
                 Limpiar();
                 inhabilitar();

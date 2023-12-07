@@ -182,7 +182,7 @@ public class FrmServicio extends javax.swing.JInternalFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBackground(new java.awt.Color(255, 204, 255));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("DATOS DE LA VENTA"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("DATOS DE LA SERVICIO"));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Codigo:");

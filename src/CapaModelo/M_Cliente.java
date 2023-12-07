@@ -23,7 +23,8 @@ public class M_Cliente {
     public M_Cliente() {
     }
 
-    public M_Cliente(String codigo, String apellidos, String nombres, String dni, String ruc, int edad, String sexo, String telefono, String direccion) {
+    public M_Cliente(String codigo, String apellidos, String nombres, String dni,
+            String ruc, int edad, String sexo, String telefono, String direccion) {
         this.codigo = codigo;
         this.apellidos = apellidos;
         this.nombres = nombres;

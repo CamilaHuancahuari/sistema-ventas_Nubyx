@@ -80,7 +80,7 @@ public class FrmvistaProveedor extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tablalistado);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 88, 497, 148));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 88, 510, 160));
 
         jLabel2.setText("Buscar por Razon Social:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 45, -1, -1));
